@@ -1,0 +1,6 @@
+@michaelsimpleapi_HostAddress = http://localhost:5027
+
+GET {{michaelsimpleapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

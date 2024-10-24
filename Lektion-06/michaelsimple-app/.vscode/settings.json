@@ -1,0 +1,5 @@
+{
+  "appService.preDeployTask": "publish-release",
+  "appService.deploySubpath": "bin/Release/net8.0/publish",
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/d3a3f8da-6272-4333-b154-fd19b2c347a6/resourceGroups/AzureCourseRG/providers/Microsoft.Web/sites/michaelsimpledemo-app"
+}

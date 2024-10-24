@@ -1,0 +1,13 @@
+﻿@model List<michaelsimple_app.Models.Weather>
+
+<h1>Väderprognos</h1>
+<hr>
+
+@foreach (var weather in Model)
+{
+    <div>@weather.Date</div>
+    <div>@weather.TemperatureC</div>
+    <div>@weather.TemperatureF</div>
+    <div>@weather.Summary</div>
+    <hr>
+}
